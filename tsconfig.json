@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Implied by `"module": "nodenext"`
+    "module": "nodenext",
+    "moduleResolution": "nodenext", // Implied by `"module": "nodenext"`
+    "resolveJsonModule": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true, // Implied by `"esModuleInterop": true`
+    "esModuleInterop": true, // Implied by `"module": "nodenext"`
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true, // Recommended by `"module": "nodenext"`
+    "skipLibCheck": true
+  }
+}
