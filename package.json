@@ -1,0 +1,8 @@
+{
+  "name": "my-mono",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "author": "Alessandro Curcu <aleqrq@gmail.com>",
+  "packageManager": "pnpm@10.7.0"
+}
