@@ -1,8 +1,17 @@
 {
   "name": "my-mono",
+  "type": "module",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
+  "packageManager": "pnpm@10.7.0",
   "author": "Alessandro Curcu <aleqrq@gmail.com>",
-  "packageManager": "pnpm@10.7.0"
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.1",
+    "eslint": "^9.33.0",
+    "eslint-plugin-format": "^1.0.1"
+  }
 }
