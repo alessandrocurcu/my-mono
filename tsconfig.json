@@ -16,5 +16,6 @@
     "isolatedModules": true,
     "verbatimModuleSyntax": true, // Recommended by `"module": "nodenext"`
     "skipLibCheck": true
-  }
+  },
+  "references": []
 }
