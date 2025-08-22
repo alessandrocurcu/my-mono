@@ -1,0 +1,2 @@
+# --- Line endings: normalize everything to LF everywhere ---
+* text=auto eol=lf
