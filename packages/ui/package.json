@@ -1,0 +1,6 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.7.0",
+  "author": "Alessandro Curcu <aleqrq@gmail.com>"
+}
