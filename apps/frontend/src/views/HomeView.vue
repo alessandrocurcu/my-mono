@@ -6,6 +6,8 @@ const message = ref('Hello, World!');
 
 <template>
   <div>
-    <h1>{{ message }}</h1>
+    <h1 class="text-3xl font-bold underline bg-amber-50 px-2">
+      {{ message }}
+    </h1>
   </div>
 </template>
