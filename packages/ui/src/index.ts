@@ -6,6 +6,3 @@ export * from './lib/utils.js';
 
 // Export composables
 // export * from './composables/index.js';
-
-// Export styles
-import './styles/global.css';
