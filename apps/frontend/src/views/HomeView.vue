@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import { Button } from '@qrq-repo/ui';
+import { Button } from '@qrq-repo/ui/button';
 import { ref } from 'vue';
 
 const message = ref('Hello, World!');

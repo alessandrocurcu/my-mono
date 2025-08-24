@@ -7,9 +7,10 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: resolve(fileURLToPath(new URL('.', import.meta.url)), 'src/index.ts'),
-      name: 'QrqUI',
-      fileName: format => `index.${format === 'es' ? 'js' : 'cjs'}`,
+      entry: {
+        'components/ui/button/index': resolve(fileURLToPath(new URL('.', import.meta.url)), 'src/components/ui/button/index.ts'),
+        'lib/utils': resolve(fileURLToPath(new URL('.', import.meta.url)), 'src/lib/utils.ts'),
+      },
       formats: ['es'],
     },
     rollupOptions: {

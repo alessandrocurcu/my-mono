@@ -5,13 +5,15 @@
   "packageManager": "pnpm@10.7.0",
   "author": "Alessandro Curcu <aleqrq@gmail.com>",
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+    "./button": {
+      "types": "./dist/components/ui/button/index.d.ts",
+      "import": "./dist/components/ui/button/index.js"
+    },
+    "./utils": {
+      "types": "./dist/lib/utils.d.ts",
+      "import": "./dist/lib/utils.js"
     }
   },
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
